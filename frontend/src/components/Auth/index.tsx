@@ -10,13 +10,7 @@ const AuthTemplateBlock = styled.div`
 `;
 
 const AuthTemplate = ({ children }: any) => {
-
-    return (
-      <AuthTemplateBlock>
-          {children}
-      </AuthTemplateBlock>
-    );
+  return <AuthTemplateBlock>{children}</AuthTemplateBlock>;
 };
 
 export default AuthTemplate;
-  
